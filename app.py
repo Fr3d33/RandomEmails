@@ -34,4 +34,4 @@ def get_new_emails():
 
 # Start the Flask app on port 8495, accessible on any network interface, with debug mode enabled
 if __name__ == "__main__":
-    app.run('host=0.0.0.0', port=8495, debug=True)
+    app.run(host='0.0.0.0', port=8495, debug=True)
